@@ -6,8 +6,7 @@ html
 
 body
 {
-    /*background-color:#b7d7e8;*/
-    background-color:red;
+    background-color:#b7d7e8;
     display: flex;
     justify-content: center;
     align-items: center;
