@@ -32,7 +32,8 @@ body
 
 }
 #meal
-{   display: flex;
+{   
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
@@ -90,5 +91,18 @@ img
   }
   
 
+/* Media queries for responsive design */
+@media only screen and (max-width: 768px) {
+  #meal {
+    flex-direction: column;
+  }
 
+  #Lrow {
+    width: 100%;
+  }
+
+  #Rrow {
+    width: 100%;
+  }
+}
 
