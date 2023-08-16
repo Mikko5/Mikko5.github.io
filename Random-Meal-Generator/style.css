@@ -93,7 +93,7 @@ img
   
 
 /* Media queries for responsive design */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 10px) {
   #meal {
     flex-direction: column;
   }
@@ -106,7 +106,7 @@ img
     width: 100%;
   }
   h1{
-    color: red !important;
+    color: violet !important;
   }
 }
 
