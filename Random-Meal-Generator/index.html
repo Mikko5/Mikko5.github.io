@@ -6,31 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
 <div id="get-meal">
     <h1>Random Meal</h1>
     <input type="button" value="Get Meal" onclick="randomMeal()">
 </div>
 
+<div id="mealOptions">
+    <button id="ChickenButton"  class="categoryButton" onclick="set_category('Chicken')">Chicken</button>
+    <button id="BeefButton" class="categoryButton" onclick="set_category('Beef')">Beef</button>
+    <button id="PastaButton"  class="categoryButton" onclick="set_category('Pasta')">Pasta</button>
+    <button id="GoatButton" class="categoryButton" onclick="set_category('Goat')">Goat</button>
+    <button id="PorkButton" class="categoryButton" onclick="set_category('Pork')">Pork</button>
+    <button id="SeafoodButton" class="categoryButton" onclick="set_category('Seafood')">Seafood</button>
+    <button id="LambButton" class="categoryButton" onclick="set_category('Lamb')">Lamb</button>
+    <button id="VegetarianButton" class="categoryButton" onclick="set_category('Vegetarian')">Vegetarian</button>
+    <button id="VeganButton" class="categoryButton" onclick="set_category('Vegan')">Vegan</button>
+    <button id="SideButton" class="categoryButton" onclick="set_category('Side')">Side</button>
+    <button id="StarterButton" class="categoryButton" onclick="set_category('Starter')">Starter</button>
+    <button id="DessertButton" class="categoryButton" onclick="set_category('Dessert')">Dessert</button>
+    <button id="BreakfastButton" class="categoryButton" onclick="set_category('Breakfast')">Breakfast</button>
+    <button id="MiscellaneousButton" class="categoryButton" onclick="set_category('Miscellaneous')">Miscellaneous</button>
+
+</div>
+
+
+
 
 <div id="meal">
     <div id="Lrow">
-        <h2 id="Recipe-name"></h2>
+        <div id="Recipe-name"></div>
         <img src="" id="Picture">
         <div id="ingredients"></div>
     </div>
     <div id="Rrow">
 
 
-    <div id="instructions"></div>
- 
+        <div id="instructions"></div>
     
-    <!-- <h2>ingredients</h2>
-    <ul>
-       <li>       
-            100g Butter
-        </li> 
-        <li>150g Flour</li>
-    </ul> -->
+ 
 
     </div>
 

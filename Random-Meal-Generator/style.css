@@ -43,6 +43,12 @@ body
     position: relative;
 }
 
+#meal  h2
+{
+  padding-bottom: 5px;
+  border-bottom: #101010 2.52327522552551145588458275451951px  dotted;
+}
+
 
 input[type="button"] 
 {
@@ -77,6 +83,13 @@ img
     max-width: 100%;
 }
 
+
+#ingredients ul
+{ 
+  padding-left: 0px;
+
+}
+
 #ingredients li:hover {
     background-color:  #f0efef;
   } 
@@ -91,8 +104,35 @@ img
   }
   
 
+
+  .categoryButton
+  {
+    padding: 15px 32px;
+    margin: 4px 2px;
+    border: none;
+    background-color:#87bdd8;
+    color: #101010;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .categoryButton.active
+  {
+    color: red;
+  }
+
+
+  #mealOptions
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align buttons to the top of the container */
+    text-align: center; /* Center button text */
+    justify-content: center;
+  }
+
 /* Media queries for responsive design */
-@media only screen and (min-width: 10px) {
+@media only screen and (max-width: 790px) {
   #meal {
     flex-direction: column;
   }
@@ -104,6 +144,7 @@ img
   #Rrow {
     width: 100%;
   }
+
 
 }
 
